@@ -53,8 +53,8 @@ class LeptonThread : public QThread {
 
 public:
     enum {
-        FrameWidth = 80,
-        FrameHeight = 60,
+        FrameWidth = 160,
+        FrameHeight = 120,
         RowPacketWords = FrameWidth + 2,
         RowPacketBytes = 2*RowPacketWords,
         FrameWords = FrameWidth*FrameHeight
